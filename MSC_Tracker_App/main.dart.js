@@ -80333,7 +80333,7 @@ $0(){return A.bD(this.a,!1).bR()},
 $S:0}
 A.iJ.prototype={
 G(a){var s=this,r=null,q=A.bE(B.h_,B.ob,B.k,A.X(a).cy,r,r,r,r,B.nF,B.nC,r,r,r),p=A.X(a),o=A.hw(10),n=A.bo(s.c,r,r,r,A.X(a).RG.r,r,r)
-return A.auk(q,A.ye(A.hM(!1,r,r,r,!0,r,!1,r,new A.a7l(s,a),!1,r,r,A.bo("\n"+s.y+": "+s.z+"\nPlatoon "+s.x+"\nLocation: "+s.d+"\n",r,r,r,r,r,r),r,n,A.aua(A.X(a).go,A.bo(B.f.j(s.f)+"%",r,r,r,B.R0,r,r)),r),p.id,r,r,new A.cD(o,B.p)),new A.a7m(a),B.ds,new A.d1(s.r,t.kK),new A.a7n(s),B.aY)},
+return A.auk(q,A.ye(A.hM(!1,r,r,r,!0,r,!1,r,new A.a7l(s,a),!1,r,r,A.bo("\n"+s.y+": "+s.z+"\nPlatoon "+s.x+"\nLocation: "+s.d+"\n",r,r,r,r,r,r),r,n,A.aua(A.X(a).go,A.bo(B.f.j(s.f),r,r,r,B.R0,r,r)),r),p.id,r,r,new A.cD(o,B.p)),new A.a7m(a),B.ds,new A.d1(s.r,t.kK),new A.a7n(s),B.aY)},
 a6g(a){A.m9(new A.a7h(this,a),a,t.z)}}
 A.a7m.prototype={
 $1(a){return A.m9(new A.a7k(),this.a,t.y)},
