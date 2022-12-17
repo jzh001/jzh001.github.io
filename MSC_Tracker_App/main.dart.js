@@ -79320,7 +79320,7 @@ this.a.e=s},
 $S:0}
 A.alC.prototype={
 $2(a,b){var s,r,q,p,o="[DEFAULT]",n="Resolved",m=b.b
-if(m==null||J.je(J.au(m,this.a.f)))return B.ha
+if((m==null||J.je(J.au(m,this.a.f)))&&this.a.f!==0)return B.ha
 s=this.a
 r=s.f
 q=$.ad
