@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+  "assets/AssetManifest.json": "c44c134a7a82c2321850d99ff5f91302",
+"assets/assets/images/MSC_Logo.png": "21d1f57914de4c513fc970e2f24b544e",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/NOTICES": "e9fc21ffae06d01d6e7efd325e1c53f5",
@@ -19,9 +20,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "ee1a6c6248a0ca649843a9c84bbf3617",
-"/": "ee1a6c6248a0ca649843a9c84bbf3617",
-"main.dart.js": "dfbbdbe7247c26405ea39d3291eecd51",
+"index.html": "878da59297aa0dd5e97e0b9dd80f3e2f",
+"/": "878da59297aa0dd5e97e0b9dd80f3e2f",
+"main.dart.js": "cd6b64b74b7bf31b573a5c9fa8c1f502",
 "manifest.json": "8edf6522ed100853b8b5013e6ad4cb47",
 "version.json": "151308b583f5ca7ff896ada2a17c7926"
 };
