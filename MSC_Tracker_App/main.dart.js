@@ -25389,7 +25389,7 @@ apI:function apI(){},
 apG:function apG(a){this.a=a},
 apH:function apH(){},
 apF:function apF(a){this.a=a},
-hW:function hW(a,b,c,d,e,f,g,h,i){var _=this
+hW:function hW(a,b,c,d,e,f,g,h,i,j){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -25398,7 +25398,8 @@ _.e=e
 _.f=f
 _.r=g
 _.w=h
-_.y=i},
+_.x=i
+_.y=j},
 a_V:function a_V(){},
 kh:function kh(a){var _=this
 _.f=_.e=_.d=_.c=_.b=_.a=null
@@ -87957,7 +87958,7 @@ case 3:i=a5
 n=q.a
 h=B.b.gN(i.a.b.a)
 o.toString
-n.push(new A.hW(h,a1,d,b,c,e,a0,a2,k))
+n.push(new A.hW(h,a1,d,b,c,e,a0,a2,o,k))
 h=$.ak
 f=(h==null?$.ak=$.bp():h).b4(0,"[DEFAULT]")
 A.aS(f,g,!0)
@@ -87988,8 +87989,8 @@ case 2:q.ac()
 return A.H(null,r)}})
 return A.I($async$z5,r)},
 Nl(a){return B.b.zH(this.a,new A.apF(a))},
-lI(){var s=0,r=A.J(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
-var $async$lI=A.E(function(a1,a2){if(a1===1)return A.G(a2,r)
+lI(){var s=0,r=A.J(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
+var $async$lI=A.E(function(a2,a3){if(a2===1)return A.G(a3,r)
 while(true)switch(s){case 0:A.fT("Making Queries in _fetchAndSetData (Vehicles)")
 p.b=!0
 o=$.ak
@@ -88004,7 +88005,7 @@ A.aS(n,o,!0)
 l=A.cD(new A.b8(n))
 s=3
 return A.y(A.cQ(l,l.gbu().cm("users")).cW(0,m).di(0),$async$lI)
-case 3:k=a2
+case 3:k=a3
 if(k.bN(0).h(0,"Watchlist")==null){p.a=A.b([],t.KC)
 s=1
 break}j=t.j.a(k.bN(0).h(0,"Watchlist"))
@@ -88031,15 +88032,15 @@ i=l.a(g.b).cW(0,i)
 A.aS(i,$.a2a(),!0)
 s=6
 return A.y(new A.HG(i,h).di(0),$async$lI)
-case 6:e=a2
+case 6:e=a3
 h=p.a
 i=B.b.gN(e.b.b.a)
 g=e.bN(0).h(0,"VehicleNum")
-e.bN(0).h(0,"Name")
-f=e.bN(0).h(0,"polLevel")
-d=e.bN(0).h(0,"Location")
-c=e.bN(0).h(0,"Remarks")
-h.push(new A.hW(i,g,f,d,e.bN(0).h(0,"Platoon"),c,e.bN(0).h(0,"Variant"),e.bN(0).h(0,"Weapon ID"),e.bN(0).h(0,"Timestamp")))
+f=e.bN(0).h(0,"Name")
+d=e.bN(0).h(0,"polLevel")
+c=e.bN(0).h(0,"Location")
+b=e.bN(0).h(0,"Remarks")
+h.push(new A.hW(i,g,d,c,e.bN(0).h(0,"Platoon"),b,e.bN(0).h(0,"Variant"),e.bN(0).h(0,"Weapon ID"),f,e.bN(0).h(0,"Timestamp")))
 s=4
 break
 case 5:A.fT("Added in provider")
@@ -88051,26 +88052,26 @@ A.aS(n,o,!0)
 o=A.cD(new A.b8(n))
 s=9
 return A.y(A.cQ(o,o.gbu().cm("credentials")).cW(0,"credentials").di(0),$async$lI)
-case 9:b=a2
-o=A.e(b.bN(0).h(0,"type"))
-m=A.e(b.bN(0).h(0,"project_id"))
-l=A.e(b.bN(0).h(0,"private_key_id"))
-i=J.bq(b.bN(0).h(0,"private_key"))
-a=A.aEY(' {\n  "type": "'+o+'",\n  "project_id": "'+m+'",\n  "private_key_id": "'+l+'",\n  "private_key": "'+A.eC(i,"\n","\\n")+'",\n  "client_email": "'+A.e(b.bN(0).h(0,"client_email"))+'",\n  "client_id": "'+A.e(b.bN(0).h(0,"client_id"))+'",\n  "auth_uri": "'+A.e(b.bN(0).h(0,"auth_uri"))+'",\n  "token_uri": "'+A.e(b.bN(0).h(0,"token_uri"))+'",\n  "auth_provider_x509_cert_url": "'+A.e(b.bN(0).h(0,"auth_provider_x509_cert_url"))+'",\n  "client_x509_cert_url": "'+A.e(b.bN(0).h(0,"client_x509_cert_url"))+'"\n}\n')
+case 9:a=a3
+o=A.e(a.bN(0).h(0,"type"))
+m=A.e(a.bN(0).h(0,"project_id"))
+l=A.e(a.bN(0).h(0,"private_key_id"))
+i=J.bq(a.bN(0).h(0,"private_key"))
+a0=A.aEY(' {\n  "type": "'+o+'",\n  "project_id": "'+m+'",\n  "private_key_id": "'+l+'",\n  "private_key": "'+A.eC(i,"\n","\\n")+'",\n  "client_email": "'+A.e(a.bN(0).h(0,"client_email"))+'",\n  "client_id": "'+A.e(a.bN(0).h(0,"client_id"))+'",\n  "auth_uri": "'+A.e(a.bN(0).h(0,"auth_uri"))+'",\n  "token_uri": "'+A.e(a.bN(0).h(0,"token_uri"))+'",\n  "auth_provider_x509_cert_url": "'+A.e(a.bN(0).h(0,"auth_provider_x509_cert_url"))+'",\n  "client_x509_cert_url": "'+A.e(a.bN(0).h(0,"client_x509_cert_url"))+'"\n}\n')
 A.fT("credentials ok")
 s=10
-return A.y(a.n3(u.N),$async$lI)
-case 10:a0=a2
+return A.y(a0.n3(u.N),$async$lI)
+case 10:a1=a3
 A.fT("Opened spreadsheet")
-o=a0.J5("Vehicle Log")
+o=a1.J5("Vehicle Log")
 s=o==null?11:13
 break
 case 11:s=14
-return A.y(a0.pw("Vehicle Log"),$async$lI)
+return A.y(a1.pw("Vehicle Log"),$async$lI)
 case 14:s=12
 break
-case 13:a2=o
-case 12:p.d=a2
+case 13:a3=o
+case 12:p.d=a3
 case 8:case 1:return A.H(q,r)}})
 return A.I($async$lI,r)},
 $iap:1}
@@ -88114,6 +88115,7 @@ q.e=d
 q.r=g
 q.w=i
 n.toString
+q.x=n
 return A.H(null,r)}})
 return A.I($async$z6,r)},
 gvv(){return this.b}}
@@ -88453,17 +88455,15 @@ r=A.kY(r,null,null,!1)
 s=r}else s=B.du}return s},
 $S:110}
 A.aw7.prototype={
-$1(a){var s,r,q,p,o,n,m,l=a.b,k=B.b.gN(l.b.a),j=l.aC(0,"VehicleNum"),i=a.a
-j=A.bK(j,i)
-s=A.bK(l.aC(0,"Timestamp"),i)
-r=A.bK(l.aC(0,"polLevel"),i)
-q=A.bK(l.aC(0,"Location"),i)
-p=A.bK(l.aC(0,"Remarks"),i)
-o=A.bK(l.aC(0,"Platoon"),i)
-n=A.bK(l.aC(0,"Weapon ID"),i)
-m=A.bK(l.aC(0,"Variant"),i)
-A.bK(l.aC(0,"Name"),i)
-return new A.h4(new A.hW(k,j,r,q,o,p,m,n,s),null)},
+$1(a){var s,r,q,p,o,n,m=a.b,l=B.b.gN(m.b.a),k=m.aC(0,"VehicleNum"),j=a.a
+k=A.bK(k,j)
+s=A.bK(m.aC(0,"Timestamp"),j)
+r=A.bK(m.aC(0,"polLevel"),j)
+q=A.bK(m.aC(0,"Location"),j)
+p=A.bK(m.aC(0,"Remarks"),j)
+o=A.bK(m.aC(0,"Platoon"),j)
+n=A.bK(m.aC(0,"Weapon ID"),j)
+return new A.h4(new A.hW(l,k,r,q,o,p,A.bK(m.aC(0,"Variant"),j),n,A.bK(m.aC(0,"Name"),j),s),null)},
 $S:574}
 A.aw8.prototype={
 $2(a,b){var s=this.a.d,r=a.c,q=b.c
@@ -89736,7 +89736,7 @@ $0(){return this.a.ab3(this.b)},
 $S:0}
 A.adN.prototype={
 $1(a){var s=null,r=this.a,q=r.c,p=this.b,o=A.bh("Vehicle No. "+q.b,s,s,s,A.a3(p).RG.r,B.em,s),n=t.p
-q=A.du(A.b([A.bh("Platoon "+q.e,s,s,s,s,s,s),A.bh(q.r+": "+q.w,s,s,s,s,s,s),A.bh("Last Edited: "+A.aEs().o_(0,A.di(q.y))+"\nPOL: "+q.c+"%\nLocation: "+q.d+"\n",s,s,s,B.yB,B.cB,s),A.bh(q.f,s,s,s,B.Rw,B.cB,s),B.y9,B.Ur,B.y9,A.B_(new A.adK(r,p),t.la)],n),B.bB,B.A,B.U)
+q=A.du(A.b([A.bh("Platoon "+q.e,s,s,s,s,s,s),A.bh(q.r+": "+q.w,s,s,s,s,s,s),A.bh("Last Edited: "+A.aEs().o_(0,A.di(q.y))+"\nLast Edited By: "+q.x+"\nPOL: "+q.c+"%\nLocation: "+q.d+"\n",s,s,s,B.yB,B.cB,s),A.bh(q.f,s,s,s,B.Rw,B.cB,s),B.y9,B.Ur,B.y9,A.B_(new A.adK(r,p),t.la)],n),B.bB,B.A,B.U)
 return A.fV(A.b([A.dv(B.yN,new A.adL(r,p),s),A.dv(B.yG,new A.adM(p),s)],n),B.fq,q,!0,o)},
 $S:22}
 A.adK.prototype={
