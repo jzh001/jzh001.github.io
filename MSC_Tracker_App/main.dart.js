@@ -87776,32 +87776,34 @@ case 7:l=c
 o=l.gf2(l)
 k=A.Y(o).i("T<1,h_>")
 p.a=A.a_(new A.T(o,new A.a9h(),k),!0,k.i("al.E"))
-k=$.ak
-m=(k==null?$.ak=$.bp():k).b4(0,"[DEFAULT]")
+s=p.d==null?8:9
+break
+case 8:o=$.ak
+m=(o==null?$.ak=$.bp():o).b4(0,"[DEFAULT]")
 A.aS(m,g,!0)
 g=A.cD(new A.b8(m))
-s=8
+s=10
 return A.y(A.cQ(g,g.gbu().cm("credentials")).cW(0,"credentials").di(0),$async$lH)
-case 8:j=c
+case 10:j=c
 g=A.e(j.bN(0).h(0,"type"))
 o=A.e(j.bN(0).h(0,"project_id"))
 k=A.e(j.bN(0).h(0,"private_key_id"))
 i=J.bq(j.bN(0).h(0,"private_key"))
-s=9
+s=11
 return A.y(A.aEY(' {\n  "type": "'+g+'",\n  "project_id": "'+o+'",\n  "private_key_id": "'+k+'",\n  "private_key": "'+A.eC(i,"\n","\\n")+'",\n  "client_email": "'+A.e(j.bN(0).h(0,"client_email"))+'",\n  "client_id": "'+A.e(j.bN(0).h(0,"client_id"))+'",\n  "auth_uri": "'+A.e(j.bN(0).h(0,"auth_uri"))+'",\n  "token_uri": "'+A.e(j.bN(0).h(0,"token_uri"))+'",\n  "auth_provider_x509_cert_url": "'+A.e(j.bN(0).h(0,"auth_provider_x509_cert_url"))+'",\n  "client_x509_cert_url": "'+A.e(j.bN(0).h(0,"client_x509_cert_url"))+'"\n}\n').n3(u.N),$async$lH)
-case 9:h=c
+case 11:h=c
 A.fT("Opened spreadsheet")
 g=h.J5("Fault Log")
-s=g==null?10:12
+s=g==null?12:14
 break
-case 10:s=13
+case 12:s=15
 return A.y(h.pw("Fault Log"),$async$lH)
-case 13:s=11
+case 15:s=13
 break
-case 12:c=g
-case 11:p.d=c
+case 14:c=g
+case 13:p.d=c
 p.ac()
-case 1:return A.H(q,r)}})
+case 9:case 1:return A.H(q,r)}})
 return A.I($async$lH,r)},
 $iap:1}
 A.a9j.prototype={
@@ -88041,33 +88043,35 @@ h.push(new A.hW(i,g,f,d,e.bN(0).h(0,"Platoon"),c,e.bN(0).h(0,"Variant"),e.bN(0).
 s=4
 break
 case 5:A.fT("Added in provider")
-m=$.ak
+s=p.d==null?7:8
+break
+case 7:m=$.ak
 n=(m==null?$.ak=$.bp():m).b4(0,"[DEFAULT]")
 A.aS(n,o,!0)
 o=A.cD(new A.b8(n))
-s=7
+s=9
 return A.y(A.cQ(o,o.gbu().cm("credentials")).cW(0,"credentials").di(0),$async$lI)
-case 7:b=a2
+case 9:b=a2
 o=A.e(b.bN(0).h(0,"type"))
 m=A.e(b.bN(0).h(0,"project_id"))
 l=A.e(b.bN(0).h(0,"private_key_id"))
 i=J.bq(b.bN(0).h(0,"private_key"))
 a=A.aEY(' {\n  "type": "'+o+'",\n  "project_id": "'+m+'",\n  "private_key_id": "'+l+'",\n  "private_key": "'+A.eC(i,"\n","\\n")+'",\n  "client_email": "'+A.e(b.bN(0).h(0,"client_email"))+'",\n  "client_id": "'+A.e(b.bN(0).h(0,"client_id"))+'",\n  "auth_uri": "'+A.e(b.bN(0).h(0,"auth_uri"))+'",\n  "token_uri": "'+A.e(b.bN(0).h(0,"token_uri"))+'",\n  "auth_provider_x509_cert_url": "'+A.e(b.bN(0).h(0,"auth_provider_x509_cert_url"))+'",\n  "client_x509_cert_url": "'+A.e(b.bN(0).h(0,"client_x509_cert_url"))+'"\n}\n')
 A.fT("credentials ok")
-s=8
+s=10
 return A.y(a.n3(u.N),$async$lI)
-case 8:a0=a2
+case 10:a0=a2
 A.fT("Opened spreadsheet")
 o=a0.J5("Vehicle Log")
-s=o==null?9:11
+s=o==null?11:13
 break
-case 9:s=12
+case 11:s=14
 return A.y(a0.pw("Vehicle Log"),$async$lI)
-case 12:s=10
+case 14:s=12
 break
-case 11:a2=o
-case 10:p.d=a2
-case 1:return A.H(q,r)}})
+case 13:a2=o
+case 12:p.d=a2
+case 8:case 1:return A.H(q,r)}})
 return A.I($async$lI,r)},
 $iap:1}
 A.apJ.prototype={
@@ -88995,7 +88999,7 @@ $1(a){return B.mV},
 $S:101}
 A.xQ.prototype={
 H(a){var s=null
-return A.li(A.nW(s,s,s,s,B.TY),s,new A.bE(B.cS,A.kY(A.b([A.bh("Version 3.2.0 Updates",s,s,s,A.a3(a).RG.r,s,s),B.U8],t.p),s,s,!1),s),s,B.bx,s,s)}}
+return A.li(A.nW(s,s,s,s,B.TY),s,new A.bE(B.cS,A.kY(A.b([A.bh("Version 3.2.4 Updates",s,s,s,A.a3(a).RG.r,s,s),B.U8],t.p),s,s,!1),s),s,B.bx,s,s)}}
 A.KY.prototype={
 H(a){var s=null
 return new A.Nt(A.kY(A.b([A.B_(new A.a35(),t.u),A.ik(!1,s,s,s,!0,s,!1,B.GS,new A.a36(a),!1,s,s,s,s,B.TO,s,s),A.ik(!1,s,s,s,!0,s,!1,B.GZ,new A.a37(a),!1,s,s,s,s,B.TT,s,s),A.ik(!1,s,s,s,!0,s,!1,B.GT,new A.a38(a),!1,s,s,s,s,B.yK,s,s),A.ik(!1,s,s,s,!0,s,!1,B.H7,new A.a39(a),!1,s,s,s,s,B.yI,s,s),A.ik(!1,s,s,s,!0,s,!1,B.H3,new A.a3a(a),!1,s,s,s,s,B.TU,s,s),A.ik(!1,s,s,s,!0,s,!1,B.H1,new A.a3b(a),!1,s,s,s,s,B.yM,s,s),A.ik(!1,s,s,s,!0,s,!1,B.H8,new A.a3c(a),!1,s,s,s,s,B.yF,s,s),A.ik(!1,s,s,s,!0,s,!1,B.H9,new A.a3d(a),!1,s,s,s,s,B.Uf,s,s),A.ik(!1,s,s,s,!0,s,!1,B.GU,new A.a3e(a),!1,s,s,s,s,B.U4,s,s)],t.p),s,s,!1),s)}}
@@ -96471,7 +96475,7 @@ B.TT=new A.aW("My Faults",null,null,null,null,null,null,null,null)
 B.TU=new A.aW("All Faults",null,null,null,null,null,null,null,null)
 B.TV=new A.aW("Export Data",null,null,null,null,null,null,null,null)
 B.yF=new A.aW("Settings",null,null,null,null,null,null,null,null)
-B.TY=new A.aW("Version 3.2.0",null,null,null,null,null,null,null,null)
+B.TY=new A.aW("Version 3.2.4",null,null,null,null,null,null,null,null)
 B.yG=new A.aW("Exit",null,null,null,null,null,null,null,null)
 B.U_=new A.aW("Enter new password",null,null,null,null,null,null,null,null)
 B.U1=new A.aW("This app is a web application developed using Flutter and Firebase, and requires Wi-Fi to be fully functional.\n\nFor the best user experience, view this app in portrait mode.\n\nIn the event of bugs, refresh or log out. For feedback on the app, please approach the developer directly.\n\nThere are 4 user modes:\n- Admin\n- Moderator\n- User\n- Pending Approval\n\nUsers have access to faults and vehicles screen. Only the admin and moderators can approve / suspend users, make announcements and export data.\n\n",null,null,null,null,null,null,null,null)
