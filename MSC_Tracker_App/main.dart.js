@@ -88362,8 +88362,8 @@ A.aud.prototype={
 $1(a){return B.mV},
 $S:123}
 A.Oy.prototype={
-H(a){var s=null,r=A.c9(s,s,B.k,s,s,new A.du(s,s,s,s,s,new A.mz(B.n0,B.n1,B.bw,A.b([B.Ef,B.nN,B.nR,B.nP],t.t_),s,s),B.ar),s,s,s,s,s,s,s),q=A.aIw(s,B.T,s,0,new A.db(A.a3(a).go,s,s,s),s),p=t.w,o=a.I(p).f,n=t.p
-return A.ke(B.b9,A.b([r,A.lk(q,B.T,A.o4(new A.bE(B.FQ,A.dv(A.b([A.hN(A.aK_("assets/images/MSC_Logo.png",B.Ai),o.a.b*0.58,s),A.hN(s,a.I(p).f.a.b*0.2,s)],n),B.L,B.A,B.V),s),s,s),s,B.by,A.BQ(B.Hd,!1,new A.abN(this,a)),s)],n),B.aW,s,s)},
+H(a){var s=null,r=A.c9(s,s,B.k,s,s,new A.du(s,s,s,s,s,new A.mz(B.n0,B.n1,B.bw,A.b([B.Ef,B.nN,B.nR,B.nP],t.t_),s,s),B.ar),s,s,s,s,s,s,s),q=A.aIw(s,B.T,s,0,new A.db(A.a3(a).go,s,s,s),s),p=t.w,o=Math.min(a.I(p).f.a.b*0.58,a.I(p).f.a.a*0.8),n=t.p
+return A.ke(B.b9,A.b([r,A.lk(q,B.T,A.o4(new A.bE(B.FQ,A.dv(A.b([A.hN(A.aK_("assets/images/MSC_Logo.png",B.Ai),o,s),A.hN(s,a.I(p).f.a.b*0.2,s)],n),B.L,B.A,B.V),s),s,s),s,B.by,A.BQ(B.Hd,!1,new A.abN(this,a)),s)],n),B.aW,s,s)},
 adK(a){A.i5(new A.abM(),a,t.z)}}
 A.abN.prototype={
 $0(){return this.a.adK(this.b)},
@@ -89000,7 +89000,7 @@ $1(a){return B.mW},
 $S:101}
 A.xR.prototype={
 H(a){var s=null
-return A.lk(B.F1,s,new A.bE(B.cT,A.l_(A.b([A.bh("Version 3.3.0 Updates",s,s,s,A.a3(a).RG.r,s,s),B.UE],t.p),s,s,!1),s),s,B.by,s,s)}}
+return A.lk(B.F1,s,new A.bE(B.cT,A.l_(A.b([A.bh("Version 3.3.2 Updates",s,s,s,A.a3(a).RG.r,s,s),B.UE],t.p),s,s,!1),s),s,B.by,s,s)}}
 A.KY.prototype={
 H(a){var s=null
 return new A.Nu(B.nU,A.l_(A.b([A.AZ(new A.a35(),t.u),A.il(!1,s,s,s,!0,s,!1,B.H2,new A.a36(a),!1,s,s,s,s,B.TZ,s,s),A.il(!1,s,s,s,!0,s,!1,B.H9,new A.a37(a),!1,s,s,s,s,B.U3,s,s),A.il(!1,s,s,s,!0,s,!1,B.H3,new A.a38(a),!1,s,s,s,s,B.yW,s,s),A.il(!1,s,s,s,!0,s,!1,B.Hi,new A.a39(a),!1,s,s,s,s,B.yU,s,s),A.il(!1,s,s,s,!0,s,!1,B.He,new A.a3a(a),!1,s,s,s,s,B.U4,s,s),A.il(!1,s,s,s,!0,s,!1,B.Hc,new A.a3b(a),!1,s,s,s,s,B.yY,s,s),A.il(!1,s,s,s,!0,s,!1,B.Hj,new A.a3c(a),!1,s,s,s,s,B.yR,s,s),A.il(!1,s,s,s,!0,s,!1,B.Hk,new A.a3d(a),!1,s,s,s,s,B.Uq,s,s),A.il(!1,s,s,s,!0,s,!1,B.H4,new A.a3e(a),!1,s,s,s,s,B.Ug,s,s)],t.p),s,s,!1),s)}}
@@ -94247,7 +94247,7 @@ B.ci=new A.B2(B.mH,null,null,null,null,null,null)
 B.Ud=new A.aV("Pending Approval",null,null,null,null,null,null,null,null)
 B.ff=A.b(s([]),t.p)
 B.F0=new A.iS(B.Ud,B.ff,null)
-B.U8=new A.aV("Version 3.3.0",null,null,null,null,null,null,null,null)
+B.U8=new A.aV("Version 3.3.2",null,null,null,null,null,null,null,null)
 B.F1=new A.iS(B.U8,B.ff,null)
 B.yR=new A.aV("Settings",null,null,null,null,null,null,null,null)
 B.F2=new A.iS(B.yR,B.ff,null)
