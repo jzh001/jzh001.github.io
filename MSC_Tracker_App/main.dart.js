@@ -89212,23 +89212,18 @@ s=2
 return A.u(k.ty(o,l,m,p,n),$async$ws)
 case 2:return A.F(null,r)}})
 return A.G($async$ws,r)},
-wM(){var s=0,r=A.H(t.H),q=this,p,o,n,m,l,k,j
+wM(){var s=0,r=A.H(t.H),q=this,p,o,n,m,l,k
 var $async$wM=A.C(function(a,b){if(a===1)return A.E(b,r)
-while(true)switch(s){case 0:j=q.c
-j.toString
-j=A.cl(j,!1,t.la)
+while(true)switch(s){case 0:k=q.c
+k.toString
+k=A.cl(k,!1,t.la)
 p=q.a.c
-p.toString
 o=q.e
 n=q.f
 m=q.r
 l=q.w
-k=q.c
-k.toString
-k=A.cl(k,!1,t.u).a
-k.toString
 s=2
-return A.u(j.zi(k,n,l,o,m,p),$async$wM)
+return A.u(k.zi(p.r,n,l,o,m,p),$async$wM)
 case 2:return A.F(null,r)}})
 return A.G($async$wM,r)}}
 A.arw.prototype={
@@ -89916,6 +89911,11 @@ s.e=q?0:r.c
 s.w=q?"":r.f
 s.y=q?"AGL-COAX":r.r
 s.Q=q?"None":r.z
+if(q){r=s.c
+r.toString
+r=A.cl(r,!0,t.u).f
+r.toString}else r=r.e
+s.x=r
 s.aI()},
 H(a){var s,r,q=this,p=null,o=t.p,n=A.b([new A.AV(q.as,new A.arO(q),B.UF,B.Q,p),A.km(B.I1,q.r,p,p,p,20,1,!1,new A.arP(q),p,new A.arQ())],o)
 if(!q.as){s=q.x
@@ -89923,11 +89923,11 @@ r=t.eG
 n.push(A.vd(B.iw,p,A.Z(new A.S(A.b([1,2,3,4,5],t.t),new A.arX(),r),!0,r.i("al.E")),new A.arY(q),p,s,t.S))}if(!q.as)n.push(A.km(B.Ib,q.f,p,p,p,50,1,!1,new A.arZ(q),p,new A.as_()))
 if(!q.as){s=q.y
 r=t.fo
-n.push(A.vd(B.Id,p,A.Z(new A.S(A.b(["AGL-COAX","HMG","CMD","PNR","Scout","Medic","RSTA","ATGM","B-MTNC","B-SIG","B-MTR","B-MTRAC","B-FUEL","B-LOGS","B-SCRT","B-BCS","Others"],t.s),new A.as0(),r),!0,r.i("al.E")),new A.as1(q),p,s,t.N))}if(!q.as)n.push(A.km(B.I3,q.z,p,p,p,25,1,!1,new A.as2(q),p,p))
+n.push(A.vd(B.Id,p,A.Z(new A.S(A.b(["AGL-COAX","HMG","CMD","PNR","Scout","Medic","RSTA","ATGM","C/40","B-MTNC","B-SIG","B-MTR","B-MTRAC","B-FUEL","B-LOGS","B-SCRT","B-BCS","Others"],t.s),new A.as0(),r),!0,r.i("al.E")),new A.as1(q),p,s,t.N))}if(!q.as)n.push(A.km(B.I3,q.z,p,p,p,25,1,!1,new A.as2(q),p,p))
 if(!q.as)n.push(A.km(B.I4,B.d.j(q.e),p,p,B.R5,3,1,!1,new A.as3(q),p,new A.arR()))
 if(!q.as){s=q.Q
 r=t.fo
-n.push(A.vd(B.If,p,A.Z(new A.S(A.b(["None","BII Stores Accounted","Weapon Mounted","TES Set Mounted","Inspection Complete","Vehicle Washed","HOTOed to SBC","HOTOed from SBC","BOS Completed","POL Topped Up","AOS Completed"],t.s),new A.arS(),r),!0,r.i("al.E")),new A.arT(q),p,s,t.N))}if(!q.as)n.push(A.km(B.Ia,q.w,p,p,p,200,3,!1,new A.arU(q),p,p))
+n.push(A.vd(B.If,p,A.Z(new A.S(A.b(["None","BII Stores Accounted","Comms OK","Weapon Mounted","TES Set Mounted","Inspection Complete","Vehicle Washed","HOTOed to SBC","HOTOed from SBC","BOS Completed","POL Topped Up","AOS Completed"],t.s),new A.arS(),r),!0,r.i("al.E")),new A.arT(q),p,s,t.N))}if(!q.as)n.push(A.km(B.Ia,q.w,p,p,p,200,3,!1,new A.arU(q),p,p))
 n.push(B.yF)
 return A.jm(B.Fl,p,A.l5(A.b([A.aFZ(A.dy(n,B.I,B.A,B.Y),q.d),A.fi(A.b([A.dn(B.dp,new A.arV(a),p),B.yD,A.dn(B.ce,new A.arW(q,a),p)],o),B.I,B.e0,B.Y)],o),B.oH,p,!1),p,p,p,p,p,p)},
 rL(){var s=0,r=A.H(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f
