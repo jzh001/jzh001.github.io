@@ -98464,7 +98464,7 @@ A.an(c,d,!0)
 h=A.cj(new A.aB(c))
 g=t.N
 s=12
-return A.w(A.cG(h,h.gby().cb("users")).d_(0,J.Q(J.b5V(e).a.c,"uid")).z9(0,A.a8(["name",a3,"username",a4,"email",a1,"status","pending","platoon",a6,"score",0],g,t.z)),$async$nI)
+return A.w(A.cG(h,h.gby().cb("users")).d_(0,J.Q(J.b5V(e).a.c,"uid")).z9(0,A.a8(["name",a3,"username",a4,"email",a1,"status","pending","platoon",a6,"score",0,"prevQuestion","","selection",""],g,t.z)),$async$nI)
 case 12:h=$.U
 c=(h==null?$.U=$.aK():h).aD(0,"[DEFAULT]")
 A.an(c,d,!0)
@@ -99772,7 +99772,7 @@ n.push(A.tP(B.Lq,p,A.a1(new A.X(A.b(["AGL-COAX","HMG","CMD","PNR","Scout","Medic
 if(!q.as)n.push(A.iM(B.Lr,B.e.j(q.e),p,p,B.UU,3,1,!1,new A.aBz(q),p,new A.aBA()))
 if(!q.as){s=q.Q
 r=t.fo
-n.push(A.tP(B.Lt,p,A.a1(new A.X(A.b(["None","GOL Pending","GOL Done","BII Stores Accounted","Comms OK","Weapon Mounted","TES Set Mounted","Inspection Complete","Vehicle Washed","HOTOed to SBC","HOTOed from SBC","BOS Completed","POL Topped Up","AOS Completed"],t.s),new A.aBB(),r),!0,r.i("at.E")),new A.aBC(q),p,s,t.N))}if(!q.as)n.push(A.iM(B.LB,q.w,p,p,p,200,3,!1,new A.aBD(q),p,p))
+n.push(A.tP(B.Lt,p,A.a1(new A.X(A.b(["None","HOTOed from SBC","GOL Pending","Weapon Mounted","BOS Completed","TES Set Mounted","POL Topped Up","AOS Completed","Vehicle Washed","HOTOed to SBC"],t.s),new A.aBB(),r),!0,r.i("at.E")),new A.aBC(q),p,s,t.N))}if(!q.as)n.push(A.iM(B.LB,q.w,p,p,p,200,3,!1,new A.aBD(q),p,p))
 n.push(B.i9)
 return A.h2(B.I5,p,A.k0(A.b([A.ajC(A.cp(n,B.v,B.z,B.J),q.d),A.el(A.b([A.dc(B.dd,new A.aBE(a),p),B.o1,A.dc(B.bU,new A.aBF(q,a),p)],o),B.v,B.cw,B.J)],o),B.jw,p,!1),p,p,p,p,p,p)},
 vp(){var s=0,r=A.I(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e
