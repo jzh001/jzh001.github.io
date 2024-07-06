@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-Thrilled to be crowned the Champions once again, at DSTA's BrainHack: Today I Learnt - Artificial Intelligence (Advanced Track) competition! 
+Thrilled to be crowned the Champions at DSTA's BrainHack: Today I Learnt - Artificial Intelligence (Advanced Track) competition! 
 
 After two years serving in the army, our team, Team Anti Heroes, was excited to finally get our hands dirty and train some machine learning models! Over 4 weeks from May-June, we managed to develop resilient models to solve 3 different tasks (Vision Language Models, Natural Language Processing and Automatic Speech Recognition), which culminated in a final robotics segment, where we controlled a DJI Robomaster turret to identify targets based on audio instructions. 
 
