@@ -4,7 +4,7 @@ title: AI Competition Champions!
 description: Defence Science and Technology Agency - Today I Learnt AI Competition, Advanced Category Champions
 img: assets/img/award.jpg
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 
