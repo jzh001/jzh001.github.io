@@ -8,10 +8,9 @@ category: fun
 related_publications: false
 ---
 
-Thrilled to be crowned the Champions at DSTA's BrainHack: Today I Learnt - Artificial Intelligence (Advanced Track) competition! 
+Thrilled to be crowned the Champions at DSTA's BrainHack: Today I Learnt - Artificial Intelligence (Advanced Track) competition!
 
-After two years serving in the army, our team, Team Anti Heroes, was excited to finally get our hands dirty and train some machine learning models! Over 4 weeks from May-June, we managed to develop resilient models to solve 3 different tasks (Vision Language Models, Natural Language Processing and Automatic Speech Recognition), which culminated in a final robotics segment, where we controlled a DJI Robomaster turret to identify targets based on audio instructions. 
-
+After two years serving in the army, our team, Team Anti Heroes, was excited to finally get our hands dirty and train some machine learning models! Over 4 weeks from May-June, we managed to develop resilient models to solve 3 different tasks (Vision Language Models, Natural Language Processing and Automatic Speech Recognition), which culminated in a final robotics segment, where we controlled a DJI Robomaster turret to identify targets based on audio instructions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,4 +54,5 @@ Will definitely be keeping myself updated on exciting developments in machine le
 Github Repository: <a href="https://github.com/jzh001/til-ai-2024">https://github.com/jzh001/til-ai-2024</a>
 
 ## References
+
 - Images from <a href="https://www.linkedin.com/posts/angelhack_ai-brainhack2024-activity-7211322385407311873-p34h?utm_source=share&utm_medium=member_desktop">AngelHack LinkedIn Post</a>

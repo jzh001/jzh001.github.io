@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Zhiheng
-middle_name: 
+middle_name:
 last_name: Jiang
 email: zhjiang@g.ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -111,7 +111,6 @@ zotero_username: # your zotero username
 
 contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
-
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
