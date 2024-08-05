@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Genetic Algorithm Grouping of Classmates
-description: Using Genetic Algorithm to group classmates based on MBTI personality traits
+title: Grouping Students with Genetic Algorithm
+description: Investigating the effectiveness of Genetic Algorithms in character strength-based grouping of people
 img: assets/img/SMTP_Presentation.jpg
 importance: 2
 category: coding
