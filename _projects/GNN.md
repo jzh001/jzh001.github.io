@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Link Prediction with GNNs and Text Features
-description: Using text features generated from passing review texts into a Language Model, to predict the links between reviewers using GNNs
+description: Using text features generated from passing review texts into a Language Model, to predict the links between reviewers using Graph Neural Networks (GNNs)
 img: assets/img/colab_coverimg.png
 importance: 2
 category: coding
