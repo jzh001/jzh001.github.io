@@ -12,7 +12,7 @@ related_publications: false
 I was reading about Graph Neural Networks (GNNs), and I came across Cora, a citation network dataset of scientific publications, which included Bag-of-Words(BoW) word embeddings as node features for training GNNs on the Cora dataset.
 
 In 2021, I worked on a similar dataset on metal music reviews, where I defined two users (i.e. reviewers) to be connected if they have reviewed a common album
-(See <a href="https://link.springer.com/article/10.1007/s13278-022-00863-2">Here</a>).
+(See <a href="https://link.springer.com/article/10.1007/s13278-022-00863-2">Here</a>). I was interested to find out whether this metal music review dataset could similarly be used to train GNNs.
 
 ## Methodology
 
