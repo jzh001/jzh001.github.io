@@ -26,9 +26,9 @@ The GNN model I used was a simple one, comprising of graph convolutions, graph a
 
 ## Findings
 
-Both the BoW and MiniLM embeddings obtained similar accuracy of around 83% for link prediction. This is compared to the baseline of 50% for random guessing, as I sampled the same number of negative edges as the number of positive edges.
+Both the BoW and MiniLM embeddings obtained similar accuracy of around 85% for link prediction. This is compared to the baseline of 50% for random guessing, as I sampled the same number of negative edges as the number of positive edges.
 
-I suspected that this accuracy was more likely due to the structure of the graph than the text embeddings itself, as accuracy seems to be preserved even when I lower the dimension of the word embeddings extracted. However, the text features do contribute to greater stability in training, as it is observed that higher dimensional word embeddings leads to smaller divergence between the positive and negative link prediction accuracies. In other words, there was smaller fluctuations in accuracy, and the likelihood that an interaction was correctly predicted to be true was close to the likelihood that an interaction was correctly predicted to be false.
+I also noted that adding graph Laplacian regularization greatly helped reduce overfitting and improve accuracy, from 83% to 85%. The graph Laplacian regularization imposes a penalty on edges with the same ground-truth labels but different predicted labels, and large differences in vector components.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
