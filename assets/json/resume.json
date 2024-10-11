@@ -25,16 +25,15 @@
     {
       "name": "Structures-Computer Interaction Lab at UCLA",
       "position": "Undergraduate Researcher",
-      "startDate": "2020-01-01",
-      "endDate": "2021-01-01",
+      "startDate": "2024-10-01",
       "summary": "Working under Prof. M. Khalid Jawed to investigate using LLMs for Robotics",
       "highlights": ["Developing software to integrate Robot Operating System (ROS) with Anthropic’s Claude LLM"]
     },
     {
       "name": "Institute of High Performance Computing - Agency for Science, Techology and Research, Singapore",
       "position": "Student Researcher",
-      "startDate": "2020-01-01",
-      "endDate": "2021-01-01",
+      "startDate": "2020-04-01",
+      "endDate": "2022-01-01",
       "summary": "Conducted social network analysis research under the mentorship of Dr Hoai Nguyen Huynh",
       "highlights": [
         "Developed research methodology to analyze metal music genre community structure",
@@ -46,7 +45,7 @@
     {
       "name": "School of Physical and Mathematical Sciences - Nanyang Technogical University, Singapore",
       "position": "Student Researcher",
-      "startDate": "2018-01-01",
+      "startDate": "2018-06-01",
       "endDate": "2019-01-01",
       "summary": "Conducted Natural Language Processing research under Assoc Prof Cheong Siew Ann",
       "highlights": [
@@ -186,6 +185,11 @@
     {
       "language": "Mandarin",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Basic",
       "icon": ""
     }
   ]

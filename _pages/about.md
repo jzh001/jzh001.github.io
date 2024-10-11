@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming Computer Science and Engineering Freshman at UCLA
+subtitle: Computer Science and Engineering Undergraduate at UCLA
 
 profile:
   align: right
@@ -15,6 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am Zhiheng (James) from Singapore, and I will be studying at UCLA as a Computer Science and Engineering major, from Fall 2024 onwards. I am particularly interested in research and machine learning, and I have won multiple awards in AI and robotics challenges in Singapore. I also enjoy writing, and have published several articles on Medium and TowardsDataScience documenting my coding journey so far.
+Hi! I am Zhiheng (James) from Singapore, and I am studying at UCLA as a Computer Science and Engineering major. I am particularly interested in research and machine learning. Currently, I am working at the Structures-Computer Interaction Lab at UCLA, on the applications of Large Language Models (LLMs) for Robotics.
 
 I am looking forward to studying in Los Angeles, and travelling around in the United States in the upcoming year.
