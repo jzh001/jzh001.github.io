@@ -17,8 +17,7 @@ related_publications: false
 
 In Year 3 of High School (2018), I participated in the Science Mentorship Programme and researched on an algorithm to summarize stories (eg. Sherlock Holmes) into an agency network of story characters, using Natural Language Processing and Graph Theory techniques. Below are the results and code from the study:
 
-
-Project Report: 
+Project Report:
 
 <a href="/assets/pdf/VSS.pdf"
             target="_blank"
@@ -28,4 +27,3 @@ Project Report:
           ></a>
 
 Github Repository: <a href="https://github.com/kai824/vsos">https://github.com/kai824/vsos</a>
-
