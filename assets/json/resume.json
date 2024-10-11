@@ -23,6 +23,16 @@
   },
   "work": [
     {
+      "name": "Structures-Computer Interaction Lab at UCLA",
+      "position": "Undergraduate Researcher",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Working under Prof. M. Khalid Jawed to investigate using LLMs for Robotics",
+      "highlights": [
+        "Developing software to integrate Robot Operating System (ROS) with Anthropic’s Claude LLM"
+      ]
+    },
+    {
       "name": "Institute of High Performance Computing - Agency for Science, Techology and Research, Singapore",
       "position": "Student Researcher",
       "startDate": "2020-01-01",
