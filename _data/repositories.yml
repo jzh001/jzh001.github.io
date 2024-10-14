@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - SleepyWoodpecker/Cerebral-Hacks-Backend
   - jzh001/til-ai-2024
   - jzh001/Unveiling-music-genre-structure-through-common-interest-communities
   - jzh001/GNNs
