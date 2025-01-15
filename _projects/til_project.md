@@ -32,7 +32,7 @@ Due to work commitments while serving in the army, I haven't had the opportunity
 I especially enjoyed working on the vision language model tasks, where I developed a two-step object detection and captioning model for our team, which significantly outperformed many of the end-to-end models such as OwlViT and Grounding Dino on the test set.
 
 <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/simulator.jpg" title="Simulator" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/simulator.png" title="Simulator" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     Simulated testing environment before finals.
