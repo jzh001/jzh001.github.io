@@ -17,4 +17,4 @@ social: true # includes social icons at the bottom of the page
 
 Hi! I am Zhiheng (James) from Singapore, and I am studying at UCLA as a Computer Science and Engineering major. I am particularly interested in research and machine learning. Currently, I am working at the Structures-Computer Interaction Lab at UCLA, on the applications of Large Language Models (LLMs) for Robotics.
 
-I am looking forward to studying in Los Angeles, and travelling around in the United States in the upcoming year.
+I am currently working towards a publication on using LLMs to develop physically realistic simulations based on robotic data.
