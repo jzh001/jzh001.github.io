@@ -29,13 +29,18 @@ After two years serving in the army, our team, Team Anti Heroes, was excited to 
 
 Due to work commitments while serving in the army, I haven't had the opportunity to learn about the latest developments in AI, and this competition really accelerated my learning in the fields of computer vision, natural language processing and automatic speech recognition. Gone are the days where training simple LSTMs, or CNN-based architectures were sufficient in winning these AI competitions, which is really testament to how fast this field is evolving.
 
-I especially enjoyed working on the vision language model tasks, where I developed a two-step object detection and captioning model for our team, which significantly outperformed many of the end-to-end models such as OwlViT and Grounding Dino on the test set.
+I especially enjoyed working on the vision language model tasks, where I developed a two-step object detection and captioning model for our team to identify objects in a scene based on a text description, which significantly outperformed many of the end-to-end models such as OwlViT and Grounding Dino on the test set.
 
-<div class="col-sm mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/simulator.png" title="Simulator" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/obj_det_rtdetr.png" title="RT-DETR Object Detection" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
-    Simulated testing environment before finals.
+    Left: Simulated testing environment before finals. Right: Output from our RT-DETR object detection model.
 </div>
 
 One of the challenges I faced was our limited compute power. We soley relied on the Tesla T4 GPU provided to us on the Google Cloud Platform, which resulted in our slow training times, while other teams were training on their local GPUs or more powerful cloud-based GPUs. However, this also proved to be our team's advantage, as we had to use smaller and more suitable models, which improved our inference times during our robotics evaluation, and allowed our model to generalize better.
