@@ -3,8 +3,8 @@ layout: page
 title: Grouping Students with Genetic Algorithm
 description: Investigating the effectiveness of Genetic Algorithms in character strength-based grouping of people
 img: assets/img/SMTP_Presentation.jpg
-importance: 2
-category: coding
+importance: 4
+category: high school
 related_publications: false
 ---
 

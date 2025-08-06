@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some cool projects.
 nav: true
 nav_order: 3
-display_categories: [coding]
+display_categories: [recent, high school]
 horizontal: false
 ---
 

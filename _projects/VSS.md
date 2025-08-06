@@ -3,8 +3,8 @@ layout: page
 title: Visual Summarization of Stories
 description: Science Mentorship Programme 2018, Youth Science Conference Distinction
 img: assets/img/SSEF2019.jpg
-importance: 3
-category: coding
+importance: 5
+category: high school
 related_publications: false
 ---
 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have started a new role as a Visiting Academic at the USC Institute for Creative Technologies, working on using Scenario Generation using LLMs for Multi-Agent Reinforcement Learning.
+I have started a new role as a Visiting Academic at the USC Institute for Creative Technologies, working on creating a test suite for Preference-Driven Multi-Objective Reinforcement Learning.

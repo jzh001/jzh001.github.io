@@ -3,8 +3,8 @@ layout: page
 title: UCLA Undergraduate Research Week
 description: LLM-Guided Model Development of Elastic Structures
 img: assets/img/llm_slinky.png
-importance: 1
-category: coding
+importance: 2
+category: recent
 related_publications: false
 ---
 
