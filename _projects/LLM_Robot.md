@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LLM-Robot Digital Twin Development
-description: "Research Topic: LLM-Guided Model Development of Elastic Structures."
+description: "Research Topic: LLM-Guided Model Development of Elastic Structures. (w/ Prof. M. Khalid Jawed)"
 img: assets/img/llm_slinky.png
 importance: 2
 category: recent

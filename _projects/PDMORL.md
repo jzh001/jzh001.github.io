@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multi-Objective Reinforcement Learning Research
-description: "Research Topic: A Combinatorial Test Suite for Preference-Driven Multi-Objective Reinforcement Learning (w/co-author Dr. Volkan Ustun)."
+description: "Research Topic: A Combinatorial Test Suite for Preference-Driven Multi-Objective Reinforcement Learning (w/ Dr. Volkan Ustun)."
 img: assets/img/socal_symposium.jpg
 importance: 1
 category: recent
