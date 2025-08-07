@@ -1,7 +1,7 @@
 ---
 layout: page
-title: UCLA Undergraduate Research Week
-description: LLM-Guided Model Development of Elastic Structures
+title: LLM-Robot Digital Twin Development
+description: "Research Topic: LLM-Guided Model Development of Elastic Structures."
 img: assets/img/llm_slinky.png
 importance: 2
 category: recent
@@ -17,3 +17,7 @@ related_publications: false
                     allowfullscreen>
     </iframe>
 </div>
+
+This work is part of the research at the UCLA Structures-Computer Interaction Lab. Presented at UCLA Undergraduate Research Week.
+
+Lab Homepage: <a href="https://structures.computer/">https://structures.computer/</a>

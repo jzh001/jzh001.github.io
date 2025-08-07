@@ -14,3 +14,7 @@ related_publications: false
 <div class="caption">
   Singapore Science and Engineering Fair 2021
 </div>
+
+Paper: <a href="https://link.springer.com/article/10.1007/s13278-022-00863-2">https://link.springer.com/article/10.1007/s13278-022-00863-2</a>
+
+Github Repository: <a href="https://github.com/jzh001/Unveiling-music-genre-structure-through-common-interest-communities">https://github.com/jzh001/Unveiling-music-genre-structure-through-common-interest-communities</a>

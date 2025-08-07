@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Competition Champions!
+title: AI Hackathon Champions!
 description: Defence Science and Technology Agency - Today I Learnt AI Competition, Advanced Category Champions
 img: assets/img/award.jpg
 importance: 3
