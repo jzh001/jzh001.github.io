@@ -15,6 +15,6 @@ related_publications: false
   Example MLP architecture diagram generated with ArchGen
 </div>
 
-HuggingFace Spaces Link:  <a href="https://huggingface.co/spaces/jzh001/ArchGen">https://huggingface.co/spaces/jzh001/ArchGen</a>
+HuggingFace Spaces Link: <a href="https://huggingface.co/spaces/jzh001/ArchGen">https://huggingface.co/spaces/jzh001/ArchGen</a>
 
 Github Repository: <a href="https://github.com/jzh001/ArchGen">https://github.com/jzh001/ArchGen</a>
