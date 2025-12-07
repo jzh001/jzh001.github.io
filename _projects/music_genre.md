@@ -4,7 +4,7 @@ title: Social Network Analysis and Mining
 description: Unveiling music genre structure through common-interest communities (Singapore Science and Engineering Fair 2021 - Gold Award, Published in Springer Social Network Analysis and Mining)
 img: assets/img/SSEF2021.jpg
 importance: 1
-category: high school
+category: archive
 related_publications: false
 ---
 
