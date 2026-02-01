@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - jzh001/GraphAllocBench
   - jzh001/til-ai-2024
   - jzh001/ArchGen
   - jzh001/When2Fly
