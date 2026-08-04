@@ -197,6 +197,12 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+@media (max-width: 575.98px) {
+  .profile {
+    display: none;
+  }
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }
